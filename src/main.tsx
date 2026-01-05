@@ -2,12 +2,12 @@
 // import { createRoot } from "react-dom/client";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App";
+import App from "./components/App/App";
 // Нормалізація стилів
 import "modern-normalize";
 // Глобальні стилі (додатково)
 import "./index.css";
-import "./components/App.module.css";
+import "./components/App/App.module.css";
 import "./components/CafeInfo/CafeInfo.module.css";
 import "./components/Notification/Notification.module.css";
 import "./components/VoteOptions/VoteOptions.module.css";
