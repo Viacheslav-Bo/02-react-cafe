@@ -7,8 +7,11 @@ import App from "./components/App";
 import "modern-normalize";
 // Глобальні стилі (додатково)
 import "./index.css";
-import "./App.css";
-import "./global.css";
+import "./components/App.module.css";
+import "./components/CafeInfo/CafeInfo.module.css";
+import "./components/Notification/Notification.module.css";
+import "./components/VoteOptions/VoteOptions.module.css";
+import "./components/VoteStats/VoteStats.module.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
