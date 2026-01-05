@@ -1,13 +1,12 @@
 import styles from "./VoteStats.module.css";
+import type { Votes } from "../../types/votes";
 // У файлі компонента оголосіть інтерфейс VoteStatsProps, який описує типи для пропсів компонента.
 interface VoteStatsProps {
   votes: {
-    good: number;
-    neutral: number;
-    bad: number;
+    votes: Votes;
+    totalVotes: number;
+    positiveRate: number;
   };
-  totalVotes: number;
-  positiveRate: number;
 }
 // Для того, щоб компонент VoteStats міг динамічно відображати статистику голосування, зібрану з кліків
 // на кнопки голосування, він має приймати три пропси:
